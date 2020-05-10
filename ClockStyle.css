@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+}
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-family: times;
+	color : yellow;
+}
+#hours,#minutes,#seconds{
+	font-family: 'times';
+	font-weight: bold;
+	font-size: 100px;
+	
+}
+#ampm{
+
+	font-family: times;
+	font-size: 80px;
+	
+}
+#clockDigital{
+	display : inline-block;
+	margin-left: 30%;
+	margin-right : 300 px;
+	margin-top : 50px;
+	
+}
+#hourblock,#minBlock,#secBlock,#ampmBlock{
+	display: inline-block;
+	border : 1px black solid;
+	width : 150px;
+	height : 150px;
+	text-align : center;
+	border-radius: 10%;
+}
+#hourblock{
+	background-color: lightblue;
+	color : white;
+}
+#minBlock{
+	background-color: tomato;
+	color : white;
+}
+#secBlock{
+	background-color: rgb(138, 84, 196);
+	color : white;
+}
+#ampmBlock{
+	width: 150px;
+	height: 130px;
+	background-color: rgb(54, 247, 141);
+	color : white;
+}
+.under{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	color : white;
+	font-family: times;
+	font-weight: lighter;
+}
+#days{
+	font-weight: bold;
+	font-size: 40px;
+	width : auto;
+	height:auto;
+	background-color : rgb(198, 193, 200);
+	font-family: times;
+	color : rgb(8, 0, 255);
+	text-align: center;
+	border-radius: 30%;
+}

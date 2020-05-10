@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock</title>
+	<link rel="stylesheet" type="text/css" href="ClockStyle.css">
+	<script type="text/javascript" src="clockJS.js"></script>
+</head>
+<body>
+	<h1> DIGITAL CLOCK </h1>
+	<div id="clockDigital">
+	<form> 
+		<div id="hourblock">
+		<span id="hours">hh</span>
+		<p class="under"> HOURS </p>
+		</div>
+		<div id="minBlock">
+		<span id="minutes">mm</span>
+		<p class="under"> MINUTES </p>
+		</div>
+		<div id="secBlock">
+		<span id="seconds">ss</span>
+		<p class="under"> SECONDS </p>
+	</div>
+	<div id="ampmBlock">
+		<span id="ampm">  </span>
+			<p class="under"> MERIDIEM </p>
+	</div>
+	<div id="days"> <p id="day">  Prudhvi </p> </div> 
+	</form>
+</div>
+
+<script type="text/javascript">
+	setInterval(showTime,1000);
+
+</script>
+
+</body>
+</html>
